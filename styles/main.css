@@ -1,0 +1,138 @@
+.site-img {
+    width: 100wh;
+    height: 40rem;
+    background: linear-gradient(360deg ,rgba(0, 0, 0, 0.6), transparent),
+    url('../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg') center/cover no-repeat fixed,
+    yellow;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'sahel';
+    font-size: 2rem;
+}
+
+.tarefe-box {
+    width: 90%;
+    margin: auto;
+}
+
+.tarefe {
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 3rem 0.1rem rgba(0, 0, 0, 0.07);
+    border-radius: 0.5rem;
+}
+
+.tarefe-title {
+    font-family: 'sahel';
+    font-size: 1.7rem;
+    color: yellow;
+}
+
+.price-tarefe {
+    direction: rtl;
+    color: red;
+}
+
+.tarefe-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tarefe-item {
+    margin: 1rem 0;
+    color: rgb(152, 217, 22);
+    font-size: 1.2rem;
+}
+
+.btn {
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+}
+
+.tarefe-btn {
+    transition: 1s;
+    padding: 0.3rem 0.8rem;
+    font: inherit;
+    font-family: 'sahel';
+    border: none;
+    background: rgb(152, 217, 22);
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem 0.1rem rgba(152, 217, 22, 0.6);  
+}
+
+.tarefe-btn:hover,
+.tarefe-btn:active {
+    transition: 0.2s;
+    background: rgb(217, 231, 14);
+    cursor: pointer;
+} 
+
+.perfo {
+    background: rgba(0, 0, 0, 0.007);
+}
+
+.perfo .section-title {
+    padding-top: 2rem;
+}
+
+.perfo-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.perfo-item {
+    display: block;
+    width: 100%;
+}
+
+.imf-box {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    margin: auto
+}
+
+.imf-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.discrip {
+    font-family: 'sahel';
+    font-size: 1.34rem;
+    color: brown;
+}
+
+/* media query */
+
+@media (min-width:40rem) {
+    .site-img {
+        height: 55rem;
+    }
+    
+    .tarefe-box {
+        width: 60%;
+    }
+
+    .tarefe {
+        display: inline-block;
+        width: 30%;
+        margin: 1rem;
+    }
+
+    .btn {
+        padding-bottom: 0;
+    }
+
+    .perfo-item {
+        display: inline-block;
+        width: 30%;
+    }
+}

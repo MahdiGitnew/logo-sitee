@@ -1,0 +1,108 @@
+main {
+    padding-top: 3rem;
+}
+
+.nazarat-box {
+    margin: 0.4rem;
+}
+
+.nazarat-img {
+    margin-top: 2rem;
+    width: 100%;
+    height: 25rem;
+    display: block;
+}
+
+.nazarat-img img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1rem 0.2rem rgba(0, 0, 0, 0.07);
+    border-radius: 1rem;
+}
+
+.idianame {
+    font-family: 'sahel';
+    font-size: 1.5rem;
+    color: yellow;
+    background: rgba(0, 0, 0, 0.478);
+    width: 8.7rem;
+    margin: 2rem auto;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+}
+
+.idiajob {
+    font-family: 'sahel';
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.606);
+    margin-top: -0.8rem;
+}
+
+.idiadiscription {
+    font-family: 'sahel';
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.823);
+}
+
+.nazarat-discrip {
+    display: block;
+    text-align: center;
+}
+
+.nazarat-box_align {
+    text-align: right;
+}
+
+.background-color_nazarat {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 0, 0.137);
+    z-index: -2;
+}
+
+.khat {
+    border: 1px dashed red;
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.nazarat-box_align .nazarat-img {
+    margin: 2rem 0;
+}
+
+/* media scerin */
+
+@media (min-width:40rem) {
+    .nazarat-img {
+        width: 40rem;
+        height: 33rem;
+        margin-top: 0rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .nazarat-box {
+        margin: 2rem;
+    }
+
+    .nazarat-discrip {
+        vertical-align: middle;
+        display: inline-block;
+        width: 20%;
+        text-align: right;
+    }
+
+    .idianame {
+        margin-left: 14.7rem;
+    }
+
+    .nazarat-box_align .nazarat-discrip {
+        margin-right: 11.5rem;
+    }
+
+    .nazarat-box_align .nazarat-img {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../../styles/sharead.css">
+    <link rel="stylesheet" href="./form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>web app</title>
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <div class="modal">
+        <h1 class="modal-title">عنوان</h1>
+        <div class="acttions">
+            <a href="#" class="action">ثبت سفارش</a>
+            <button class="action action-negative">انصراف</button>
+        </div>
+    </div>
+    <header id="main-header">
+        <div class="logo-box">
+            <a class="site-logo" href="./index.htm">LOGO</a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav_items">
+                <li class="main-nav_item"><a href="./pages/nazarat/index.htm">نظرات</a></li>
+                <li class="main-nav_item"><a href="./pages/tarefe/index.htm">تعرفه ها</a></li>
+                <li class="main-nav_item main-nav_item__highlighted"><a href="#">حساب کاربری</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header id="main-header_respon">
+        <div class="logo-box_mobile">
+            <a class="site-logo_mobile" href="./index.htm">LOGO</a>
+        </div>
+        <div class="hember-menu">
+            <nav class="main-nav_mobile">
+                <ul class="main-nav_items_mobile">
+                    <li class="main-nav_item_mobile main-nav_item_mobile__highlighted"><a href="#">حساب کاربری</a></li>
+                    <li class="main-nav_item_mobile"><a href="./pages/tarefe/index.htm">تعرفه ها</a></li>
+                    <li class="main-nav_item_mobile"><a href="./pages/nazarat/index.htm">نظرات</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="form-title">عنوان فرم</h1>
+        <form class="form">
+            <input type="text" id="first-name" placeholder="نام">
+            <input type="text" id="last-name" placeholder="نام خانوادگی">
+            <input type="text" id="email" placeholder="ایمیل">
+            <input type="password" id="password" placeholder="رمز عبور">
+            <input type="checkbox" id="terms">
+            <label>قوانین سایت را مطالعه کرده ام</label>
+            <button type="submit">ثبت سفارش</button>
+        </form>
+    </main>
+    <footer id="footer">
+        <ul class="footer-items">
+            <li class="footer-item"><a href="./pages/tarefe/index.htm">تعرفه ها</a></li>
+            <li class="footer-item"><a href="./pages/nazarat/index.htm">نظرات</a></li>
+        </ul>
+    </footer>
+    <script src="./scripts/sharead.js"></script>
+</body>
+
+</html>

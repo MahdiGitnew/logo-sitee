@@ -1,0 +1,114 @@
+main {
+    padding-top: 2rem;
+}
+
+.tarefe-box:first-of-type {
+    margin-top: 3rem;
+}
+
+.tarefe-box {
+    position: relative;
+    width: 85%;
+    border: 1px solid yellow;
+    margin: 1.5rem 0;
+    padding: 0.2rem;
+    text-align: right;
+    border-radius: 0.5rem;
+    border-left: none;
+    z-index: 0;
+}
+
+.tarefe {
+    text-decoration: none;
+    display: block;
+    padding: 0.3rem;
+    background: rgba(245, 255, 63, 0.388);
+    border-radius: 0.5rem;
+}
+
+.tarefe-title {
+    font-family: 'sahel';
+    color:rgb(255, 255, 255) ;
+    background: rgba(0, 0, 0, 0.474);
+    position: absolute;
+    right: 0.3rem;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+.tarefe-box_bag .tarefe-title {
+    margin: 1rem 0 2rem 0;
+    top: 1.9rem;
+}
+
+.discriptarefe {
+    background: rgba(255, 44, 44, 0.821);
+    padding: 0.6rem;
+    font-family: 'sahel';
+    font-size: 1.1rem;
+    color: aliceblue;
+    margin-top: 6rem;
+    border-radius: 0.5rem;
+}
+
+#plus {
+    background: rgba(245, 255, 63, 0.189);
+}
+
+#pro {
+    background: rgba(245, 255, 63, 0.068);
+}
+
+.right-tarefe {
+    float: right;
+    border-left: 1px solid yellow;
+    border-right: none;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.backrround-trefe {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('../../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg') center/cover no-repeat fixed;
+    z-index: -1;
+}
+
+.bag {
+    background: #ffffff;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+    padding: 0.2rem 0.4rem;
+    font-family: 'sahel';
+    font-size: 1.1rem;
+    border-radius: 0.4rem;
+    color: rgb(0, 0, 0);
+    background: yellow;
+}
+
+/* media scerin */
+
+@media (min-width:40rem) {
+    .tarefe-box:first-of-type {
+        margin-top: 5rem;
+    }
+
+    .tarefe-box {
+        width: 40%;
+    }
+
+    .tarefe {
+        padding: 1rem;
+    }
+    
+    .tarefe-title {
+        right: 1rem;
+        padding: 0.4rem;
+        margin: 0 0 2rem 0;
+    }
+}
